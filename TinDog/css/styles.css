@@ -1,0 +1,189 @@
+#title {
+  background-color: #ff4c68;
+  z-index: -1;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin: 20px 0 50px 0;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  color: black;
+}
+
+h6 {
+  color: #8f8f8f;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding-bottom: 60px;
+}
+
+.image {
+  width: 30%;
+  padding: 0 40px;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 230px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+}
+
+.bdwnld {
+  margin: 0 22px 0 0;
+}
+
+#features {
+  background-color: white;
+  font-size: 3rem;
+  color: #000;
+  padding: 7% 10%;
+  position: relative;
+}
+
+.container {
+  align-items: center;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icons {
+  color: #ef8172;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+/*Testimonials Section */
+#testimonials {
+  color: #fff;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.doggy {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+/* Pricing */
+#pricing {
+  text-align: center;
+  color: #000;
+  padding: 100px;
+}
+
+.cards {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .image {
+    width: 55%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 50px 0 100px;
+}
+
+.last {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 50px;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.footer-link1 {
+  position: relative;
+  right: 20px;
+  color: black;
+  padding: 0 5px 15px 0;
+}
+
+.footer-link2 {
+  color: black;
+  padding: 0 5px 15px;
+}
+
+.footer-link3 {
+  position: relative;
+  left: 20px;
+  color: black;
+  padding: 0 0 15px 5px;
+}
+
+.copyright {
+  margin-top: 15px;
+}
